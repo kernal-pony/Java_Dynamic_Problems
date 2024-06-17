@@ -1,6 +1,8 @@
 
 public class MergeSortt
 {
+
+    //time complexity is O(log n)
     public static void divide(int arr[],int si, int ei)
     {
         int mid=si+ (ei-si)/2;
@@ -9,6 +11,8 @@ public class MergeSortt
         conquer(arr,si,mid,ei);
 
     }
+
+    //time complexity is O(n)
     public static void conquer(int arr[],int si, int mid,int ei)
     {
         int merged[]=new int[ei-si+1];// because concept of zero
