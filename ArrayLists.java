@@ -1,3 +1,22 @@
+/*
+ * 
+Operations :
+
+Declare an ArrayList of different Types
+Add Element
+Get Element
+Add Element at a specific Index
+Set Element at a specific Index
+Delete Element from an Index
+Size of the List
+Loop/Iterate on the List
+Sort the List
+
+ */
+
+
+
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -5,8 +24,8 @@ import java.util.Collections;
 class ArrayLists {
    public static void main(String args[]) {
        ArrayList<Integer> list = new ArrayList<Integer>();
-       ArrayList<String> list2 = new ArrayList<String>();
-       ArrayList<Boolean> list3 = new ArrayList<Boolean>();
+       //ArrayList<String> list2 = new ArrayList<String>();
+       //ArrayList<Boolean> list3 = new ArrayList<Boolean>();
       
        //add elements
        list.add(1);
@@ -16,7 +35,7 @@ class ArrayLists {
        System.out.println(list);
 
 
-       //to get an element
+       //to access an element
        int element = list.get(0); // 0 is the index
        System.out.println(element);
 
@@ -27,12 +46,12 @@ class ArrayLists {
 
 
        //set element
-       list.set(0,0);
+       list.set(0,100);
        System.out.println(list);
 
 
        //delete elements
-       list.remove(0); // 0 is the index
+       list.remove(4); // 0 is the index
        System.out.println(list);
 
 
